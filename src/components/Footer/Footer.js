@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
 import { SectionDivider, SectionTitle } from "../../styles/GlobalComponents";
-import {Contact} from '../contact/Contact'
+// import {Contact} from '../contact/Contact'
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
   CompanyContainer,
@@ -39,7 +39,7 @@ const Footer = () => {
           </LinkItem>
         </LinkColumn>
       </LinkList>
-      <Contact />
+  {/*<Contact />*/}
       <SocialIconsContainer>
         <CompanyContainer>
           <Slogan>Credit: Pavan Kumar</Slogan>
