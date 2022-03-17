@@ -17,38 +17,38 @@ const Header = () =>  (
       </Link>
     </Div1>
     <Div2>
-      <li style={{padding:"5px"}}>
+      <li style={{padding:"10px 15px"}}>
         <Link href = '#projects'>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
-      <li style={{padding:"5px"}}>
+      <li style={{padding:"10px 15px"}}>
         <Link href = '#experience'>
           <NavLink>Experience</NavLink>
         </Link>
       </li>
-      <li style={{padding:"5px"}}>
+      <li style={{padding:"10px 15px"}}>
         <Link href = '#tech'>
           <NavLink>Skills</NavLink>
         </Link>
       </li>
-      <li style={{padding:"5px"}}>
+      <li style={{padding:"10px 15px"}}>
         <Link href = '#education'>
           <NavLink>Education</NavLink>
         </Link>
       </li>
-      <li style={{padding:"5px"}}>
+      <li style={{padding:"10px 15px"}}>
         <Link href = '#about'>
           <NavLink>About</NavLink>
         </Link>
       </li>
-      <li style={{padding:"5px"}}>
+      <li style={{padding:"10px 15px"}}>
         <Link href = '#contact'>
           <NavLink>Contact</NavLink>
         </Link>
       </li>
     </Div2>
-    <Div3>
+    {/* <Div3>
       <SocialIcons href = "https://github.com/nehachatse" target="_blank">
         <AiFillGithub size="3rem" />
       </SocialIcons>
@@ -59,7 +59,7 @@ const Header = () =>  (
         <AiFillTwitterCircle  size="3rem"/>
       </SocialIcons> */}
       
-    </Div3>
+    
   </Container>
 );
 

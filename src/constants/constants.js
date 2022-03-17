@@ -13,7 +13,7 @@ export const projects = [
     description:"Pepperfry is an Indian online marketplace for furniture and home décor. ",
     // description: "AJIO, a fashion and lifestyle brand, is Reliance Retail’s digital commerce initiative and is the ultimate fashion destination for styles that are handpicked, on trend and at prices that are the best you’ll find anywhere.",
     image: '/images/landing_page.png',
-    tags: ['HTML', 'CSS', 'ReactJS', 'MaterialUI', 'Redux'],
+    tags: ['HTML', 'CSS', 'ReactJS', 'Redux'],
     source: 'https://github.com/Ashishpal438/pepperfry_clone',
     visit: 'https://pepperfryclone.netlify.app/',
     id: 1,

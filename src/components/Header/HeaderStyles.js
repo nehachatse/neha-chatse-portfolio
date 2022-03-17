@@ -6,7 +6,7 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 2rem;
+  column-gap: 45%;
   padding: 1rem;
   padding-top: 2rem;
   
@@ -34,10 +34,11 @@ export const Div1 = styled.div`
   }
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 1 / 2 / 2 / 1 / 4;
+  // grid-area: 1 / 1 / 2 / 2 / 1 / 4;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  // margin-left: 120%;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }

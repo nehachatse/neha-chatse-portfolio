@@ -139,8 +139,8 @@ export const LinkList = styled.ul`
 export const LinkColumn = styled.div`
 	display: flex;
 	flex-direction: column;
-	max-width: 220px;
-	width: 100%;
+	max-width: 300px;
+	width: 130%;
 `
 export const LinkTitle = styled.h4`
 	font-style: normal;

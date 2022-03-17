@@ -25,26 +25,26 @@ const Experience = () => (
                     Handling UI and backend connectivity.</CardInfoEx>
           <br/>
           <div>
-            <TitleContent>Technology Working</TitleContent>
+            <TitleContent>Technology Used</TitleContent>
             <TagList>
               {/* {project.tags.map((tag, i) => { */}
-                <div style = {{textAlign:'center'}}>
+                <div style = {{textAlign:'center', flexBasis: '19%', marginRight: '1%'}}>
                   {/* <TechIcons tag = 'ReactJS' /> */}
                   <div>ReactJS</div>
                 </div>
-                <div style = {{textAlign:'center'}}>
+                <div style = {{textAlign:'center', flexBasis: '19%', marginRight: '1%'}}>
                   {/* <TechIcons tag = 'JavaScript' /> */}
                   <div>JavaScript</div>
                 </div>
-                <div style = {{textAlign:'center'}}>
+                <div style = {{textAlign:'center', flexBasis: '19%', marginRight: '1%'}}>
                   {/* <TechIcons tag = 'JavaScript' /> */}
                   <div>Django</div>
                 </div>
-                <div style = {{textAlign:'center'}}>
+                <div style = {{textAlign:'center' , flexBasis: '19%', marginRight: '1%'}}>
                   {/* <TechIcons tag = 'JavaScript' /> */}
                   <div>Python</div>
                 </div>
-                <div style = {{textAlign:'center'}}>
+                <div style = {{textAlign:'center', flexBasis: '19%', marginRight: '1%'}}>
                   {/* <TechIcons tag = 'JavaScript' /> */}
                   <div>Unix</div>
                 </div>
@@ -71,26 +71,26 @@ const Experience = () => (
                     And also Supported team with other tasks.</CardInfoEx>
           <br/>
           <div>
-            <TitleContent>Technology Worked</TitleContent>
+            <TitleContent>Technology Used</TitleContent>
             <TagList>
               {/* {project.tags.map((tag, i) => { */}
-                <div style = {{textAlign:'center'}}>
+                <div style = {{textAlign:'center', flexBasis: '19%', marginRight: '1%'}}>
                   {/* <TechIcons tag = 'ReactJS' /> */}
                   <div>Django</div>
                 </div>
-                <div style = {{textAlign:'center'}}>
+                <div style = {{textAlign:'center', flexBasis: '19%', marginRight: '1%'}}>
                   {/* <TechIcons tag = 'JavaScript' /> */}
                   <div>Angular 10</div>
                 </div>
-                <div style = {{textAlign:'center'}}>
+                <div style = {{textAlign:'center', flexBasis: '19%', marginRight: '1%'}}>
                   {/* <TechIcons tag = 'JavaScript' /> */}
                   <div>Spring Boot</div>
                 </div>
-                <div style = {{textAlign:'center'}}>
+                <div style = {{textAlign:'center', flexBasis: '19%', marginRight: '1%'}}>
                   {/* <TechIcons tag = 'JavaScript' /> */}
                   <div> MongoDB</div>
                 </div>
-                <div style = {{textAlign:'center'}}>
+                <div style = {{textAlign:'center', flexBasis: '19%', marginRight: '1%'}}>
                   {/* <TechIcons tag = 'JavaScript' /> */}
                   <div>IntelliJ IDEA CE</div>
                 </div>
