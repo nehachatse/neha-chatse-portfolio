@@ -4,7 +4,7 @@ import TechIcons from '../Projects/TechIcons';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { SkillsContainer, SkillsBox, TechTag } from './TechnologiesStyles';
 
-const techStacks = ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Node', 'ExpressJS', 'Mongodb', 'Windows', 'VS code']
+const techStacks = ['HTML', 'CSS', 'JavaScript', 'React', 'Redux', 'Node', 'ExpressJS', 'Mongodb', 'VS code']
 const Technologies = () =>  (
   <Section id = 'tech'>
     <SectionDivider />

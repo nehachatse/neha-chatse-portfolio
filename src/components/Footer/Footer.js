@@ -24,32 +24,32 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:+91-7004871356">+91-7004871356</LinkItem>
+          <LinkItem href="tel:+91-7004871356">+91-9923801951</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:faizan8t8@gmail.com">
-          faizan8t8@gmail.com
+          <LinkItem href="mailto:nehachatse02@gmail.com">
+          nehachatse02@gmail.com
           </LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Location</LinkTitle>
           <LinkItem href="">
-          Patna, Bihar
+          Aurangabad, Maharashtra, India
           </LinkItem>
         </LinkColumn>
       </LinkList>
   {/*<Contact />*/}
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Credit: Pavan Kumar</Slogan>
+          <Slogan>Neha Chatse</Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/faazah" target="_blank">
+          <SocialIcons href="https://github.com/nehachatse" target="_blank">
             <AiFillGithub size="3rem" />
           </SocialIcons>
           <SocialIcons
-            href="https://www.linkedin.com/in/faaz/"
+            href="https://www.linkedin.com/in/neha-chatse-a12065189/"
             target="_blank"
           >
             <AiFillLinkedin size="3rem" />

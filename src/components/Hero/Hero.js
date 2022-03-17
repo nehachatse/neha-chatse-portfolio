@@ -13,7 +13,7 @@ const Hero = (props) => (
     <LeftSection>
       <SectionTitle main center>
       Hi, I'm  <br />
-      Md Faizan Ahmad
+      Neha Chatse
         {/* My Personal Portfolio */}
       </SectionTitle>
       <SectionText>
@@ -39,7 +39,7 @@ const Hero = (props) => (
 
 
 
-   <Button onClick = {() => window.open('https://drive.google.com/file/d/1K7T-N3542qJh9s2pfQcJ66AAYcMmm1_m/view?usp=sharing&export=download', '_blank')}>Download My CV </Button>
+   <Button onClick = {() => window.open('https://drive.google.com/file/d/1rVeIjRe2sV5eG5pU2mdxS3P8a7NG7xsN/view?usp=sharing', '_blank')}>Download My CV </Button>
 
 
 

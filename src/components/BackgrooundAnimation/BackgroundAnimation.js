@@ -370,7 +370,7 @@ const BackgroundAnimation = () => (
       top: 100,
       left:150
     }}>
-      <img src='/images/Pavan Kumar.png' alt="pavan" style = {{display:"flex",height: "100%", width: "100%", borderRadius : "50%", objectFit: "cover" }} />
+      <img src='/images/profilePic.jpg' alt="neha" style = {{display:"flex",height: "100%", width: "100%", borderRadius : "50%", objectFit: "cover" }} />
     </div>
   </div>
 );

@@ -48,40 +48,13 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      Hello my name is Faizan, I'm an aspiring Full Stack Web Developer specializing in building exceptional digital experiences. <br />
-      I am a technology enthusiast who is always eager to learn new things, and looking for an organization that will help me enhance my skill set, knowledge and to work for the best interest of the organization. I am an ardent learner and possess good communication skills with a passion to be a part of a dynamic team that works towards the achievement of organization goal.
+      Hello my name is Neha, Ambitious and self-motivated software developer currently
+                        working as Associate Engineer in DataMetica Solutions.
+                        Maintained UI and backend connectivity of a major project. 
+                        Passionate about Web-development and Data Structure &
+                        Algorithms. Proficient in working with teams and building interactive web applications. 
       </SectionText>
-      <CarouselContainer ref = {carouselRef} onScroll = {handleScroll}>
-        <>
-          {TimeLineData.map((item, index) => {
-            <CarouselMobileScrollNode key = {index} final = {index === TOTAL_CAROUSEL_COUNT - 1}>
-              <CarouselItem
-                index = {index}
-                id={`carousel__item-${index}`}
-                active = {activeItem}
-                onClick = {(e) => handleClick(e, index)}
-              >
-                <CarouselItemTitle>
-                  {item.year}
-                </CarouselItemTitle>
-                <CarouselItemText>{item.text}</CarouselItemText>
-              </CarouselItem>
-            </CarouselMobileScrollNode>
-          })}
-        </>
-      </CarouselContainer>
-      <CarouselButtons>
-        {TimeLineData.map((item, index) => (
-          <CarouselButton
-            key = {index}
-            index = {index}
-            active = {activeItem}
-            onClick = {(e) => handleClick(e, index)}
-          >
-            <CarouselButtonDot active = {activeItem} />
-          </CarouselButton>
-        ))}
-      </CarouselButtons>
+      
     </Section>
   );
 };
