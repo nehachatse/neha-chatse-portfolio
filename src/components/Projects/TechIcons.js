@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiReact, DiFirebase,DiMongodb, DiCss3, DiJavascript, DiWindows } from 'react-icons/di';
+import { DiReact, DiJava, DiFirebase,DiMongodb, DiCss3, DiJavascript, DiWindows } from 'react-icons/di';
 import {FaNode, FaNodeJs} from 'react-icons/fa'
 // import {FcLinux} from 'react-icons/fc'
 import { SiRedux, SiJson, SiHtml5, SiVisualstudiocode, SiJavascript } from 'react-icons/si';
@@ -18,6 +18,8 @@ const TechIcons = ({tag}) => {
         return <DiCss3 size = '70%'  color = "#2171B6"/>
     else if(tag === 'JavaScript')
         return <SiJavascript size = '70%' color = '#EFD81C'/>
+    else if(tag === 'Java')
+        return <DiJava size = '70%'/>
     else if(tag === 'JSON')
         return <SiJson size = '70%'/>
     else if(tag === 'HTML')
